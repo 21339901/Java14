@@ -12,6 +12,7 @@ public class Class08 {
     		bw.write(str);
     		bw.newLine();
     	}
+	bw.flush();
     	br.close();
         
         br = new BufferedReader(new FileReader("D:\\bbb.txt"));
@@ -19,6 +20,7 @@ public class Class08 {
     		bw.write(str);
     		bw.newLine();
     	}
+	bw.flush();
         br.close();
         bw.close();
         
